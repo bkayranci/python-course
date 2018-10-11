@@ -27,4 +27,4 @@ print(sehir, "otogarı kullandıginiz icin tesekkur ederiz!")
 
 {% endhighlight %}
 
-Burada print komutu artık `sehir` yazan kısımlara Bolu yazacaktır. Çünkü `sehir` tırnak ile tanımlanmadığı için bir `string` ya da bir sayı olmadığından `integer` bir değer de değildir. Ozaman python dili bu ifadeyi değişken olarak okumaya çalışır. Eğer yukarıda `sehir = "Bolu"` gibi bir ifade olmasaydı, sehir gördüğü kısımlara ne yazacağını bilemeyecek ve hata verecekti. Bu yüzden bir değişkeni kullanmadan önce bu değişken yerine ne yazacağımızı bildirmemiz gerekir. Yani `DEGISKENADI = DEGER` olarak bir değişken tanımlarız.
+Burada print komutu artık `sehir` yazan kısımlara Bolu yazacaktır. Çünkü `sehir` tırnak ile tanımlanmadığı için bir `string` ya da bir sayı olmadığından `integer` bir değer de değildir. Ozaman python dili bu ifadeyi değişken olarak okumaya çalışır. Eğer yukarıda `sehir = "Bolu"` gibi bir ifade olmasaydı, `sehir` gördüğü kısımlara ne yazacağını bilemeyecek ve hata verecekti. Bu yüzden bir değişkeni kullanmadan önce bu değişken yerine ne yazacağımızı bildirmemiz gerekir. Yani `DEGISKENADI = DEGER` olarak bir değişken tanımlamamız gerekir.
