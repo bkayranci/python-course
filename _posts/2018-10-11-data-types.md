@@ -18,7 +18,7 @@ Anlatacağımız veri tipleri:
 
 #### değişken tanımlamadan
 
-{% highlight html %}
+{% highlight python %}
 
 print("Ortalama:", (70 + 80) / 2)
 
@@ -26,7 +26,7 @@ print("Ortalama:", (70 + 80) / 2)
 
 #### değişken tanımlayarak
 
-{% highlight html %}
+{% highlight python %}
 
 vize = 70
 final = 80
@@ -41,7 +41,7 @@ print("Ortalama:", ortalama)
 ### float
 `float` tipini ondalık sayılar olarak tanımlayabilir ve bu sayılar ile de dört işlem yapabiliriz. Örneğin vize sınavından 70.75 alabiliriz. Bu durumda uygulamamızı aşağıdaki gibi günceller `vize` değişkeninin ondalık kısmını nokta ile ayırırız.
 
-{% highlight html %}
+{% highlight python %}
 
 vize = 70.75
 final = 80
@@ -56,7 +56,7 @@ Bölme işlemi bize `float` bir sonuç verir ve eğer bölümden tam sayı elde 
 ### str
 `str` tipini yazı olarak tanımlayabiliriz. `"` ya da `'` arasına yazılmış her ifadeyi bilgisayarımız yazı tipinde algılar. Örnek olarak bir yazıyı ekrana yazdırma işlemini aşağıdaki gibi yapabiliriz.
 
-{% highlight html %}
+{% highlight python %}
 
 print("Türkiye")
 print('Türkiye')
@@ -72,7 +72,7 @@ print(sehir)
 ### list
 `list` tipini liste olarak tanımlarız. Örneğin bir marketin ürünler listesi, alınacaklar listesi, fiyatlar listesi gibi bir çok listeyi `list` tipinde kullanırız. `list` tipinde bir ifade `[` ile `]` arasında tanımlanır. Bir listeyi aşağıdaki gibi  ekranda gösterebiliriz.
 
-{% highlight html %}
+{% highlight python %}
 
 print(["bolu", "yalova", "istanbul"])
 print([1, 2, 3])
@@ -87,7 +87,7 @@ print(harcamalar)
 
 Liste tanımlamayı çok tane değişken tanımlamak olarakta görebiliriz. Yani yukarıdaki örnekteki `sehirler` listesinin elemanlarından `bolu` yu yani 1. elemanı kullanmak istersek `sehirler[0]` yazarak 1. elemanın indis değeri olan `0` ile bu listenin ilk elemanına ulaşabiliriz. Burada dikkat etmemiz gereken önemli nokta indis değerlerinin sıfırdan başlamasıdır. Örneğin bir listenin 25. elemanına ulaşmak için `herhangibirliste[24]` yazmamız gerekir. `sehirler` listesinin 1.elemanını ekrana yazdırmak istersek bunu aşağıdaki gibi yapabiliriz.
 
-{% highlight html %}
+{% highlight python %}
 
 sehirler = ["bolu", "yalova", "istanbul"]
 print(sehirler[0])
@@ -99,7 +99,7 @@ Liste içinde sadece `str` ya da `int` ifadeler olmasına gerek yoktur. Her tipt
 #### listeye veri ekleme
 `list` tipinde bir değişkene `append` fonksiyonu ile eleman eklenebilir. Örneğin şehirler listemize bursa değerini ekleyelim.
 
-{% highlight html %}
+{% highlight python %}
 
 sehirler = ["bolu", "yalova", "istanbul"]
 sehirler.append("bursa")
@@ -111,7 +111,7 @@ print(sehirler)
 #### listeden veri çıkarma
 `list` tipinde bir değişkenden `remove` ve `pop` fonksiyonu ile eleman çıkarılabilir. Remove  ile pop fonksiyonunun farkı ise remove fonksiyonu girdi değeri olarak silmek istediğimiz elemanı isterken pop fonksiyonu sonuncu elemanı siler. Ayrıca remove fonksiyonu geri hiçbir şey döndürmezken pop fonksiyonu sildiği elemanı geri döndürür. Örneğin şehirler listemizden bolu değerini ve sondaki elemanı çıkaralım.
 
-{% highlight html %}
+{% highlight python %}
 
 sehirler = ["bolu", "yalova", "istanbul"]
 sehirler.remove("bolu")
@@ -127,7 +127,7 @@ sehirler.pop()
 ### dict
 `dict` veri tipi bize daha okunabilir ve daha kullanışlı bir yapı sağlar. Örneğin bir şehrin nüfus değerini, ilçe sayısı değerini tuttuğumuz bir liste tanımlayalım.
 
-{% highlight html %}
+{% highlight python %}
 
 bolu = [250000, 10]
 
@@ -137,7 +137,7 @@ print(bolu)
 
 Eğer ekrana bolu değişkeninin yani Bolu'nun nüfusunu yazdırmak istersem `bolu[0]` diye bir ifade kullanacağım. Bu durumda uygulamamızı geliştiren bir yazılımcı ekrana ilçe sayısını yazdırmak istediğinde Bolu ilini değişken adından anlayabilecek ama 2.elemanda yani 1. indiste bu değerin tutulduğunu anlayamayacak. Bu durumdan kurtulmak için `dict` veri tipi kullanılır.
 
-{% highlight html %}
+{% highlight python %}
 
 bolu = {"nufus": 250000, "ilcesayisi": 10}
 
@@ -148,7 +148,7 @@ print(bolu['ilcesayisi'])
 ### Veri tipini öğrenme
 `type` fonksiyonu girdi olarak verilen değerin ya da daha önceden tanımlanmış bir değişkenin veri tipini öğrenmemizi sağlar. Örneğin, 
 
-{% highlight html %}
+{% highlight python %}
 
 print(type(5))
 

@@ -7,7 +7,7 @@ tags: [code, example]
 
 Değişkenler uygulamamızı dinamikleştirmemize sağlayan bir yapıdır. Aşağıdaki gibi değişken kullanılmadan yazılmış bir uygulama örneğini incelersek,
 
-{% highlight html %}
+{% highlight python %}
 
 print("Bolu Otogara Hoşgeldiniz...")
 print("Biletin verildigi otogar: Bolu")
@@ -17,7 +17,7 @@ print("Bolu otogarı kullandıginiz icin tesekkur ederiz!")
 
 bu uygulamanın Bolu ilinde çalışan bir bilet uygulaması olduğunu anlamaktayız. Eğer bu uygulamayı İstanbul ilinde kullanmak istersek yapmamız gereken Bolu yazan yerleri İstanbul olarak güncellemektir. Burada 3 satır da Bolu geçtiğinden bu uygulamada Bolu yazan kısımların nerede olduğunu biliyoruz ve az olduğundan hızlıca değiştirebiliriz. Ancak bu uygulamamızın çok daha büyük bir uygulama olduğunu düşünürsek, Bolu yazan kısımların nerede olduğunu ve kaç tane satırda değişiklik yapacağımızı bilemeyiz. Bu yüzden Bolu ifadesini değişken olarak tanımlayıp bu şekilde kullanmalıyız. Yukarıdaki bilet uygulamasının değişken tanımlanarak uygulanması aşağıdaki gibidir.
 
-{% highlight html %}
+{% highlight python %}
 
 sehir = "Bolu"
 

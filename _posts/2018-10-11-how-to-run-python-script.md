@@ -7,7 +7,7 @@ tags: [code, example]
 
 Python yorumlanabilen bir dildir. Bir script yazarak bu scripti aşağıdaki gibi çalıştırabiliriz.
 
-{% highlight html %}
+{% highlight python %}
 
 python DOSYAADI
 
@@ -16,7 +16,7 @@ python DOSYAADI
 
 Python scriptlerini daha anlaşılabilir olsun diye `.py` dosya uzantısı eklenebilir ve yine aynı şekilde çalıştırılabilir.
 
-{% highlight html %}
+{% highlight python %}
 
 python DOSYAADI.py
 
