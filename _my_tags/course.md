@@ -1,0 +1,4 @@
+---
+slug: course
+name: Course
+---
