@@ -144,3 +144,16 @@ bolu = {"nufus": 250000, "ilcesayisi": 10}
 print(bolu['ilcesayisi'])
 
 {% endhighlight %}
+
+### Veri tipini öğrenme
+`type` fonksiyonu girdi olarak verilen değerin ya da daha önceden tanımlanmış bir değişkenin veri tipini öğrenmemizi sağlar. Örneğin, 
+
+{% highlight html %}
+
+print(type(5))
+
+bolu = {"nufus": 250000, "ilcesayisi": 10}
+
+print(type(bolu))
+
+{% endhighlight %}
