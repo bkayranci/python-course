@@ -15,10 +15,11 @@ fi
 git checkout -b gh-pages
 
 # Build site.
-yarn install --modules-folder ./_assets/yarn
+# yarn install --modules-folder ./_assets/yarn
 bundle exec jekyll build
 
 # Delete and move files.
+mv ./_assets/yarn /tmp/tmpyarn
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
@@ -30,7 +31,9 @@ git push -f -q origin gh-pages
 
 # Move back to previous branch.
 git checkout -
-yarn install --modules-folder ./_assets/yarn
+
+# yarn install --modules-folder ./_assets/yarn
+mv /tmp/tmpyarn ./_assets/yarn
 
 echo "Deployed Successfully!"
 
