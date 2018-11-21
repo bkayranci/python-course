@@ -3,7 +3,8 @@
   "scripts": {
     "setup": "bin/setup",
     "local": "bundle exec jekyll serve --drafts",
-    "publish": "bin/deploy"
+    "publish": "bin/deploy",
+    "local-watch": "bundle exec jekyll serve --drafts --watch"
   },
   "dependencies": {
     "jquery": "^3.2.1",
