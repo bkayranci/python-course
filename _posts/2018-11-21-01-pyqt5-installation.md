@@ -8,6 +8,9 @@ tags: [installation, example]
 # Windows İçin PyQt5 Kurulumu
 PyQt5 windows için kurulumunu hızlıca yapabilmemiz için `pyqt.zip` dosyasını indirelim ve `zip` dosyasından çıkartalım. Çıkarttığımızda `pyqt` isimli bir klasör göreceğiz, bu klasörü açalım.
 
+<a style="text-align:center;color:red;text-decoration: none;font-size: 32pt;" href="https://drive.google.com/open?id=1zAS8NDsX0YPRTclv_T8gcYNISsM1sS6C"
+target="_blank">pyqt.zip <small style="color:blue;">indir</small></a>
+
 **Kurulumları yaparken:**
 * `Python` kurarken `Add PATH` seçeneğini işaretli olmasına dikkat edelim.
 * `VisualStudioCode` kurarken `tüm seçeneklerin dolu` olmasına dikkat edelim.

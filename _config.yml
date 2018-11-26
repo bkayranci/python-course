@@ -48,11 +48,11 @@ assets:
     img: { optim: {}}
   source_maps: false
   sources:
+    - _assets/fonts
     - _assets/icons
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/yarn
-    - _assets/fonts
 collections:
   my_tags:
     output: true
