@@ -26,3 +26,5 @@ Kurulumu burada bitirmiş olduk. Artık `VisualStudioCode` programını açarak 
 
 ## ÖNEMLİ
 Eğer `VisualStudioCode` içerisinde sağ tıkladığımız menüleri bulamıyorsak, `VisualStudioCode` içerisindeki `extension` kısmından `Python` ve `Pyqt Integration` eklentilerini aktif duruma getirmemiz gerekebilir ya da yine bu menüden bu eklentileri kurabiliriz.
+
+{% include image.html path="vscode-extension-installation.png" path-detail="vscode-extension-installation.png" alt="Visual Studio Code Extension Kurulumu" %}
