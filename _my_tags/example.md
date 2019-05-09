@@ -1,4 +1,0 @@
----
-slug: example
-name: Example
----

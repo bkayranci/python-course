@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Python</title>
+    <description></description>
+    <link></link>
+    <atom:link href="/python-course/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Hesap Makinesi</title>
+        <description>PyQt5 ile hesap makinesi yapımı</description>
+        <pubDate>Mon, 03 Dec 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/01-making-calculator</link>
+        <guid isPermaLink="true">/python-course/posts/01-making-calculator</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>PyQt5 Kurulumu</title>
+        <description>PyQt5 Kurulumu</description>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/01-pyqt5-installation</link>
+        <guid isPermaLink="true">/python-course/posts/01-pyqt5-installation</guid>
+      </item>
+    
+      <item>
+        <title>Sınıflar</title>
+        <description>Sınıf kullanımları</description>
+        <pubDate>Thu, 01 Nov 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/01-objects</link>
+        <guid isPermaLink="true">/python-course/posts/01-objects</guid>
+      </item>
+    
+      <item>
+        <title>Fonksiyonlar</title>
+        <description>Fonksiyon Tanımı ve Kullanımı</description>
+        <pubDate>Thu, 25 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/01-functions</link>
+        <guid isPermaLink="true">/python-course/posts/01-functions</guid>
+      </item>
+    
+      <item>
+        <title>Döngüler</title>
+        <description>Tekrarlı ifadelerin kullanımı</description>
+        <pubDate>Fri, 12 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/07-loops</link>
+        <guid isPermaLink="true">/python-course/posts/07-loops</guid>
+      </item>
+    
+      <item>
+        <title>Koşullu ifadeler</title>
+        <description>Koşullu ifadelerin kullanımı</description>
+        <pubDate>Thu, 11 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/06-conditions</link>
+        <guid isPermaLink="true">/python-course/posts/06-conditions</guid>
+      </item>
+    
+      <item>
+        <title>Veri tipleri</title>
+        <description>Python dilinde veri tipleri</description>
+        <pubDate>Thu, 11 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/05-data-types</link>
+        <guid isPermaLink="true">/python-course/posts/05-data-types</guid>
+      </item>
+    
+      <item>
+        <title>Kullanıcı girdileri</title>
+        <description>&lt;strong&gt;input&lt;/strong&gt; komutu kullanarak kullanıcıdan veri alma</description>
+        <pubDate>Thu, 11 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/04-input</link>
+        <guid isPermaLink="true">/python-course/posts/04-input</guid>
+      </item>
+    
+      <item>
+        <title>Değişken tanımlama</title>
+        <description>Değişken tanımlama nasıl yapılır</description>
+        <pubDate>Thu, 11 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/03-variable-definition</link>
+        <guid isPermaLink="true">/python-course/posts/03-variable-definition</guid>
+      </item>
+    
+      <item>
+        <title>Ekran Çıktıları</title>
+        <description>&lt;strong&gt;Print&lt;/strong&gt; komutu kullanarak ekrana yazdırma</description>
+        <pubDate>Thu, 11 Oct 2018 00:00:00 +0300</pubDate>
+        <link>/python-course/posts/02-output</link>
+        <guid isPermaLink="true">/python-course/posts/02-output</guid>
+      </item>
+    
   </channel>
 </rss>
